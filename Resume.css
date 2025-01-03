@@ -1,0 +1,88 @@
+/* Resume.css */
+.section {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .section button {
+    background-color: #3498db;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .section button:hover {
+    background-color: #2980b9;
+  }
+  
+  .section-content {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+  }
+  
+  .resume-table {
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .resume-table th, .resume-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .resume-table th {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  
+  .resume-table td {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .resume-table input, .resume-table textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .resume-table textarea {
+    resize: vertical;
+  }
+  
